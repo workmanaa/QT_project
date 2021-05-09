@@ -17,6 +17,14 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+private slots:
+    void slot_nenfilechange();
+
+
+private slots:
+    void slot_trggledaction(QAction *atn);
+    void slot_actionchoice(QAction* atn);
 };
 
 #endif // MAINWINDOW_H
